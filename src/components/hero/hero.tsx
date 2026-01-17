@@ -2,6 +2,7 @@ import { Box, Typography } from "@mui/material";
 import Image from "next/image";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import HeroProps from "./hero.props";
 
 const responsive = {
     superLargeDesktop: {
@@ -22,7 +23,7 @@ const responsive = {
     },
 };
 
-const Hero = () => {
+const Hero = ({ blogs }: HeroProps) => {
     return (
         <Box sx={{ width: "100%", height: "70vh", position: "relative" }}>
             <Carousel
@@ -35,7 +36,7 @@ const Hero = () => {
                 swipeable={true}
                 draggable={true}
             >
-                {data.map((item, index) => (
+                {blogs.map((item, index) => (
                     <Box
                         key={index}
                         sx={{
@@ -46,7 +47,7 @@ const Hero = () => {
                     >
                         <Box>
                             <Image
-                                src={item.image}
+                                src={item.image.url}
                                 alt={item.title}
                                 fill
                                 style={{ objectFit: "cover" }}
@@ -65,12 +66,19 @@ const Hero = () => {
                             padding={4}
                         >
                             <Typography
-                                variant="h4"
-                                sx={{ fontWeight: "bold" }}
+                                sx={{
+                                    fontWeight: "bold",
+                                    fontSize: { xs: "25px", md: "35px" },
+                                }}
                             >
                                 {item.title}
                             </Typography>
-                            <Typography variant="h6" sx={{ mt: 1 }}>
+                            <Typography
+                                sx={{
+                                    mt: 1,
+                                    fontSize: { xs: "15px", md: "22px" },
+                                }}
+                            >
                                 {item.excerpt}
                             </Typography>
                         </Box>

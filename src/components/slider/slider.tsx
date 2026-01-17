@@ -3,10 +3,11 @@ import Image from "next/image";
 import { format } from "date-fns";
 import { navItems } from "../config/constants";
 import { Fragment } from "react/jsx-runtime";
+import { SliderProps } from "./slider.props";
 
-const Slider = () => {
+const Slider = ({ blogs, categories }: SliderProps) => {
     return (
-        <Box sx={{ width: "30%" }}>
+        <Box sx={{ width: { xs: "100%", md: "30%" } }}>
             <Box sx={{ position: "sticky", top: "100px" }}>
                 <Box
                     sx={{
@@ -17,13 +18,13 @@ const Slider = () => {
                 >
                     <Typography variant="h5">Slide</Typography>
                     <Box>
-                        {data.map((item) => (
+                        {blogs.map((item) => (
                             <Box
-                                key={item.title}
+                                key={item.id}
                                 sx={{ display: "flex", gap: 2, mt: "10px" }}
                             >
                                 <Image
-                                    src={item.image}
+                                    src={item.image.url}
                                     alt={item.title}
                                     width={180}
                                     height={110}
@@ -51,13 +52,14 @@ const Slider = () => {
                 >
                     <Typography variant="h4">Category</Typography>
                     <Box>
-                        {navItems.map((nav) => (
-                            <Fragment key={nav.route}>
+                        {categories.map((nav) => (
+                            <Fragment key={nav.slug}>
                                 <Button
                                     sx={{
                                         justifyContent: "flex-start",
                                         width: "100%",
                                         mt: "10px",
+                                        textAlign: "start",
                                     }}
                                 >
                                     {nav.label}
@@ -72,26 +74,4 @@ const Slider = () => {
     );
 };
 
-const data = [
-    {
-        image: "https://media.graphassets.com/MxJZhmooRRuudoErkQ38",
-        title: "Technical SEO with Hygraph",
-        excerpt:
-            "Get started with your SEO implementation when using a Headless CMS",
-        author: {
-            name: "John Smith",
-            image: "https://media.graphassets.com/DkfNqQNGRz2F4UFntKQx",
-        },
-    },
-    {
-        image: "https://media.graphassets.com/bh3K2NNtTHCN260Xfq9h",
-        title: "Union Types and Sortable Relations with Hygraph",
-        excerpt:
-            "Learn more about Polymorphic Relations and Sortable Relations with Hygraph",
-        author: {
-            name: "Samar Badriddinov",
-            image: "https://media.graphassets.com/DkfNqQNGRz2F4UFntKQx",
-        },
-    },
-];
 export default Slider;
