@@ -1,12 +1,12 @@
 import type { AppProps } from "next/app";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
-import theme from "./helpers/them";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import NProgress from "nprogress";
 import "nprogress/nprogress.css";
 import "../styles/globals.css";
+import them from "../helpers/them";
 
 export default function MyApp({ Component, pageProps }: AppProps) {
     const router = useRouter();
@@ -27,7 +27,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         };
     }, [router]);
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={them}>
             <CssBaseline />
             <Component {...pageProps} />
         </ThemeProvider>

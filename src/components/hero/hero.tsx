@@ -4,7 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import HeroProps from "./hero.props";
 import { format } from "date-fns";
-import { timeCalculate } from "../../pages/helpers/time-calculate";
+import { timeCalculate } from "../../helpers/time-calculate";
 import { useRouter } from "next/router";
 
 const responsive = {

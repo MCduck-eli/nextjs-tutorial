@@ -1,5 +1,5 @@
 __turbopack_load_page_chunks__("/", [
-  "static/chunks/[root-of-the-server]__5cc568e4._.js",
+  "static/chunks/[root-of-the-server]__7cc78e05._.js",
   "static/chunks/8e694_next_dist_compiled_dd0a295e._.js",
   "static/chunks/8e694_next_dist_shared_lib_fc1e8ce2._.js",
   "static/chunks/8e694_next_dist_client_c5b1586f._.js",
@@ -11,5 +11,5 @@ __turbopack_load_page_chunks__("/", [
   "static/chunks/8e694_fe2444f6._.js",
   "static/chunks/8e694_react-multi-carousel_lib_styles_c76daa6e.css",
   "static/chunks/Desktop_nextjs-tutorial_src_pages_index_2da965e7._.js",
-  "static/chunks/turbopack-Desktop_nextjs-tutorial_src_pages_index_8a774fd8._.js"
+  "static/chunks/turbopack-Desktop_nextjs-tutorial_src_pages_index_09ff9337._.js"
 ])

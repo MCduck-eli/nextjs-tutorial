@@ -5,8 +5,8 @@ import CategoriesInterface from "../../interfaces/categories-interface";
 import Layout from "../../layout/layout";
 import { Content, Hero, Slider } from "../../components";
 import { Box } from "@mui/material";
-import Seo from "../seo/seo";
 import { useRouter } from "next/router";
+import Seo from "../../seo/seo";
 
 interface GetCategoryProps {
     blogs: getBlogs[];

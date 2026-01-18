@@ -4,7 +4,7 @@ import { getService } from "../../services/get-service";
 import { getBlogs } from "../../interfaces";
 import { Content } from "../../components";
 import { Box } from "@mui/material";
-import Seo from "../seo/seo";
+import Seo from "../../seo/seo";
 
 interface BlogPageProps {
     blogs: getBlogs[];

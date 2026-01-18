@@ -5,7 +5,7 @@ import { getBlogs } from "../interfaces";
 import { GetServerSideProps } from "next";
 import { getService } from "../services/get-service";
 import CategoriesInterface from "../interfaces/categories-interface";
-import Seo from "./seo/seo";
+import Seo from "../seo/seo";
 
 interface HomePageProps {
     blogs: getBlogs[];

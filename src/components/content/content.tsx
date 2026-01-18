@@ -3,7 +3,7 @@ import { Box } from "@mui/system";
 import Image from "next/image";
 import { format } from "date-fns";
 import ContentProps from "./content.props";
-import { timeCalculate } from "../../pages/helpers/time-calculate";
+import { timeCalculate } from "../../helpers/time-calculate";
 import { useRouter } from "next/router";
 
 const Content = ({ blogs }: ContentProps) => {

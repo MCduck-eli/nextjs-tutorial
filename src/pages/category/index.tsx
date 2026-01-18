@@ -4,7 +4,7 @@ import { getService } from "../../services/get-service";
 import CategoriesInterface from "../../interfaces/categories-interface";
 import { Box, Button, ButtonGroup, Typography } from "@mui/material";
 import { useRouter } from "next/router";
-import Seo from "../seo/seo";
+import Seo from "../../seo/seo";
 
 interface CategoryPageProps {
     categories: CategoriesInterface[];

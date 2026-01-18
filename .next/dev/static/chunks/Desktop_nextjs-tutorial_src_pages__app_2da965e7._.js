@@ -10,8 +10,8 @@
   "static/chunks/8e694_@mui_system_esm_f558c9a4._.js",
   "static/chunks/8e694_@mui_material_esm_d5c7e2ff._.js",
   "static/chunks/8e694_38576dcb._.js",
-  "static/chunks/[root-of-the-server]__fe0e198e._.js",
-  "static/chunks/[root-of-the-server]__dd2b96d6._.css"
+  "static/chunks/[root-of-the-server]__fde54f35._.js",
+  "static/chunks/[root-of-the-server]__6e455518._.css"
 ],
     source: "entry"
 });

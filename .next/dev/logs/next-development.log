@@ -1,105 +1,454 @@
-[00:00:00.529] Server  ERROR   (node:69434) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/eldorabdukhalikov/Desktop/nextjs-tutorial/next.config.js is not specified and it doesn't parse as CommonJS.
+[00:00:00.513] Server  ERROR   (node:72648) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/eldorabdukhalikov/Desktop/nextjs-tutorial/next.config.js is not specified and it doesn't parse as CommonJS.
 Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 To eliminate this warning, add "type": "module" to /Users/eldorabdukhalikov/Desktop/nextjs-tutorial/package.json.
 (Use `node --trace-warnings ...` to show where the warning was created)
-[00:00:01.110] Server  LOG     ✓ Ready in 881ms
-[00:01:20.080] Server  ERROR   Each child in a list should have a unique "key" prop.
+[00:00:01.037] Server  LOG     ✓ Ready in 812ms
+[00:00:03.196] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
+Module not found: Can't resolve './seo/seo'
+   6 | import { getService } from "../services/get-service";
+   7 | import CategoriesInterface from "../interfaces/categories-interface";
+>  8 | import Seo from "./seo/seo";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface HomePageProps {
+  11 |     blogs: getBlogs[];
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:03.198] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
+Module not found: Can't resolve './seo/seo'
+   6 | import { getService } from "../services/get-service";
+   7 | import CategoriesInterface from "../interfaces/categories-interface";
+>  8 | import Seo from "./seo/seo";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface HomePageProps {
+  11 |     blogs: getBlogs[];
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:03.202] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
+Module not found: Can't resolve './seo/seo'
+   6 | import { getService } from "../services/get-service";
+   7 | import CategoriesInterface from "../interfaces/categories-interface";
+>  8 | import Seo from "./seo/seo";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface HomePageProps {
+  11 |     blogs: getBlogs[];
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:03.204] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
+Module not found: Can't resolve './seo/seo'
+   6 | import { getService } from "../services/get-service";
+   7 | import CategoriesInterface from "../interfaces/categories-interface";
+>  8 | import Seo from "./seo/seo";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface HomePageProps {
+  11 |     blogs: getBlogs[];
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:03.215] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
+Module not found: Can't resolve './seo/seo'
+   6 | import { getService } from "../services/get-service";
+   7 | import CategoriesInterface from "../interfaces/categories-interface";
+>  8 | import Seo from "./seo/seo";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface HomePageProps {
+  11 |     blogs: getBlogs[];
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:04.206] Browser ERROR   uncaughtError: Error: ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
+Module not found: Can't resolve './seo/seo'
+   6 | import { getService } from "../services/get-service";
+   7 | import CategoriesInterface from "../interfaces/categories-interface";
+>  8 | import Seo from "./seo/seo";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface HomePageProps {
+  11 |     blogs: getBlogs[];
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:04.515] Browser ERROR   ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
+Module not found: Can't resolve './seo/seo'
+   6 | import { getService } from "../services/get-service";
+   7 | import CategoriesInterface from "../interfaces/categories-interface";
+>  8 | import Seo from "./seo/seo";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface HomePageProps {
+  11 |     blogs: getBlogs[];
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:04.626] Browser ERROR   ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
+Module not found: Can't resolve './seo/seo'
+   6 | import { getService } from "../services/get-service";
+   7 | import CategoriesInterface from "../interfaces/categories-interface";
+>  8 | import Seo from "./seo/seo";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface HomePageProps {
+  11 |     blogs: getBlogs[];
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:04.868] Browser ERROR   ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
+Module not found: Can't resolve './seo/seo'
+   6 | import { getService } from "../services/get-service";
+   7 | import CategoriesInterface from "../interfaces/categories-interface";
+>  8 | import Seo from "./seo/seo";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface HomePageProps {
+  11 |     blogs: getBlogs[];
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:30.527] Server  LOG     ✓ Compiled in 112ms
+[00:00:30.632] Browser ERROR   ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
+Module not found: Can't resolve './seo/seo'
+   6 | import { getService } from "../services/get-service";
+   7 | import CategoriesInterface from "../interfaces/categories-interface";
+>  8 | import Seo from "./seo/seo";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface HomePageProps {
+  11 |     blogs: getBlogs[];
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:36.087] Server  LOG     ✓ Compiled in 75ms
+[00:00:36.191] Browser ERROR   ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
+Module not found: Can't resolve './seo/seo'
+   6 | import { getService } from "../services/get-service";
+   7 | import CategoriesInterface from "../interfaces/categories-interface";
+>  8 | import Seo from "./seo/seo";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface HomePageProps {
+  11 |     blogs: getBlogs[];
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:39.403] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
+Module not found: Can't resolve '../../components/config/site'
+  1 | import Head from "next/head";
+  2 | import { SeoProps } from "./seo.props";
+> 3 | import { siteConfig } from "../../components/config/site";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const Seo = ({
+  6 |     children,
+
+
+
+Import traces:
+  Browser:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+  SSR:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:39.404] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
+Module not found: Can't resolve '../../components/config/site'
+  1 | import Head from "next/head";
+  2 | import { SeoProps } from "./seo.props";
+> 3 | import { siteConfig } from "../../components/config/site";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const Seo = ({
+  6 |     children,
+
+
+
+Import traces:
+  Browser:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+  SSR:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:39.405] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
+Module not found: Can't resolve '../../components/config/site'
+  1 | import Head from "next/head";
+  2 | import { SeoProps } from "./seo.props";
+> 3 | import { siteConfig } from "../../components/config/site";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const Seo = ({
+  6 |     children,
+
+
+
+Import traces:
+  Browser:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+  SSR:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:39.407] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
+Module not found: Can't resolve '../../components/config/site'
+  1 | import Head from "next/head";
+  2 | import { SeoProps } from "./seo.props";
+> 3 | import { siteConfig } from "../../components/config/site";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const Seo = ({
+  6 |     children,
+
+
+
+Import traces:
+  Browser:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+  SSR:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:39.414] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
+Module not found: Can't resolve '../../components/config/site'
+  1 | import Head from "next/head";
+  2 | import { SeoProps } from "./seo.props";
+> 3 | import { siteConfig } from "../../components/config/site";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const Seo = ({
+  6 |     children,
+
+
+
+Import traces:
+  Browser:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+  SSR:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:39.508] Browser ERROR   ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
+Module not found: Can't resolve './seo/seo'
+   6 | import { getService } from "../services/get-service";
+   7 | import CategoriesInterface from "../interfaces/categories-interface";
+>  8 | import Seo from "./seo/seo";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | interface HomePageProps {
+  11 |     blogs: getBlogs[];
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:39.710] Browser ERROR   uncaughtError: Error: ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
+Module not found: Can't resolve '../../components/config/site'
+  1 | import Head from "next/head";
+  2 | import { SeoProps } from "./seo.props";
+> 3 | import { siteConfig } from "../../components/config/site";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const Seo = ({
+  6 |     children,
+
+
+
+Import traces:
+  Browser:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+  SSR:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:39.882] Browser ERROR   ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
+Module not found: Can't resolve '../../components/config/site'
+  1 | import Head from "next/head";
+  2 | import { SeoProps } from "./seo.props";
+> 3 | import { siteConfig } from "../../components/config/site";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const Seo = ({
+  6 |     children,
+
+Import traces:
+  Browser:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+  SSR:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:39.883] Browser ERROR   ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
+Module not found: Can't resolve '../../components/config/site'
+  1 | import Head from "next/head";
+  2 | import { SeoProps } from "./seo.props";
+> 3 | import { siteConfig } from "../../components/config/site";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const Seo = ({
+  6 |     children,
+
+Import traces:
+  Browser:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+  SSR:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:04.628] Server  LOG     ✓ Compiled in 23ms
+[00:01:04.731] Browser ERROR   ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
+Module not found: Can't resolve '../../components/config/site'
+  1 | import Head from "next/head";
+  2 | import { SeoProps } from "./seo.props";
+> 3 | import { siteConfig } from "../../components/config/site";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const Seo = ({
+  6 |     children,
+
+Import traces:
+  Browser:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+  SSR:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:08.291] Server  LOG     ✓ Compiled in 85ms
+[00:01:08.394] Browser ERROR   ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
+Module not found: Can't resolve '../../components/config/site'
+  1 | import Head from "next/head";
+  2 | import { SeoProps } from "./seo.props";
+> 3 | import { siteConfig } from "../../components/config/site";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const Seo = ({
+  6 |     children,
+
+Import traces:
+  Browser:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+  SSR:
+    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
+    ./Desktop/nextjs-tutorial/src/pages/index.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:10.395] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:11.507] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:01:11.518] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:01:11.523] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:01:11.538] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:01:11.540] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:01:11.543] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:01:11.718] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:04:47.947] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:04:47.954] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:04:47.984] Server  LOG     ✓ Compiled in 202ms
+[00:04:48.858] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:04:48.910] Server  LOG     ✓ Compiled in 36ms
+[00:04:48.923] Server  ERROR   ReferenceError: theme is not defined
+[00:04:48.925] Server  ERROR   ⨯ ReferenceError: theme is not defined
+[00:04:48.926] Server  ERROR   ⨯ ReferenceError: theme is not defined
+[00:04:49.452] Server  ERROR   ReferenceError: theme is not defined
+[00:04:49.453] Server  ERROR   ⨯ ReferenceError: theme is not defined
+[00:04:49.453] Server  ERROR   ⨯ ReferenceError: theme is not defined
+[00:04:50.176] Browser ERROR   uncaughtError: ReferenceError: theme is not defined
+[00:05:02.364] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:02.391] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:02.416] Server  LOG     ✓ Compiled in 108ms
+[00:05:03.239] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:05:03.243] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:05:03.247] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:05:03.267] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:05:03.269] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:05:03.271] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:05:03.474] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:05:30.207] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:30.212] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:05:30.243] Server  LOG     ✓ Compiled in 17ms
+[00:05:31.077] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:05:31.080] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:05:31.085] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:05:31.273] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:07:22.336] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:07:22.350] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:07:22.375] Server  LOG     ✓ Compiled in 22ms
+[00:07:23.194] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:07:23.199] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:07:23.205] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:07:23.420] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:07:27.842] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:07:27.849] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:07:27.852] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:07:28.002] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:08:19.211] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:08:19.218] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:08:19.224] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:08:19.381] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
+[00:08:31.233] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:08:31.242] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:08:31.380] Server  LOG     ✓ Compiled in 21ms
+[00:08:32.026] Server  ERROR   Each child in a list should have a unique "key" prop.
 
 Check the render method of `Styled(div)`. It was passed a child from Slider. See https://react.dev/link/warning-keys for more information.
-[00:01:20.106] Server  ERROR   Each child in a list should have a unique "key" prop.
+[00:08:32.048] Server  ERROR   Each child in a list should have a unique "key" prop.
 
 Check the render method of `Styled(div)`. It was passed a child from Content. See https://react.dev/link/warning-keys for more information.
-[00:01:21.258] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+[00:08:33.305] Server  LOG     ✓ Compiled in 4ms
+[00:08:35.558] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
 
 Check the render method of `Styled(div)`.  It was passed a child from Slider.
-[00:01:21.258] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <Box minHeight="90vh">
-      <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} sx={{...}}>
-        <Insertion>
-        <div className="MuiBox-roo...">
-          <Hero>
-          <Box sx={{display:"flex", ...}} gap={2}>
-            <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} sx={{gap:2, ...}}>
-              <Insertion>
-              <div className="MuiBox-roo...">
-                <Slider>
-                <Content blogs={[...]}>
-                  <Box sx={{...}}>
-                    <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} sx={{...}}>
-                      <Insertion>
-                      <div className="MuiBox-roo...">
-                        <Box sx={{...}}>
-                          <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} sx={{...}}>
-                            <Insertion>
-                            <div className="MuiBox-roo...">
-                              <Box>
-                              <Typography>
-                              <Typography>
-                              <Box sx={{display:"flex", ...}}>
-                                <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} ...>
-                                  <Insertion>
-                                  <div
-+                                   className="MuiBox-root css-4uta2e"
--                                   className="MuiBox-root css-12s2sgo"
-                                  >
-                        <Box sx={{...}}>
-                          <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} sx={{...}}>
-                            <Insertion>
-                            <div className="MuiBox-roo...">
-                              <Box>
-                              <Typography>
-                              <Typography>
-                              <Box sx={{display:"flex", ...}}>
-                                <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} ...>
-                                  <Insertion>
-                                  <div
-+                                   className="MuiBox-root css-4uta2e"
--                                   className="MuiBox-root css-12s2sgo"
-                                  >
-                        <Box sx={{...}}>
-                          <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} sx={{...}}>
-                            <Insertion>
-                            <div className="MuiBox-roo...">
-                              <Box>
-                              <Typography>
-                              <Typography>
-                              <Box sx={{display:"flex", ...}}>
-                                <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} ...>
-                                  <Insertion>
-                                  <div
-+                                   className="MuiBox-root css-4uta2e"
--                                   className="MuiBox-root css-12s2sgo"
-                                  >
-                        <Box sx={{...}}>
-                          <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} sx={{...}}>
-                            <Insertion>
-                            <div className="MuiBox-roo...">
-                              <Box>
-                              <Typography>
-                              <Typography>
-                              <Box sx={{display:"flex", ...}}>
-                                <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} ...>
-                                  <Insertion>
-                                  <div
-+                                   className="MuiBox-root css-4uta2e"
--                                   className="MuiBox-root css-12s2sgo"
-                                  >
-
-[00:01:58.415] Server  ERROR   ❌ GraphQL xatosi: "Cannot read properties of undefined (reading 'url')"
-[00:01:58.415] Server  ERROR   ❌ GraphQL xatosi: "Cannot read properties of undefined (reading 'url')"
-[00:01:58.415] Server  ERROR   ❌ GraphQL xatosi: "Cannot read properties of undefined (reading 'url')"
-[00:01:58.424] Browser LOG     Refreshing page data due to server-side change
-[00:02:14.166] Server  LOG     ✓ Compiled in 18ms
-[00:02:14.252] Browser LOG     Refreshing page data due to server-side change

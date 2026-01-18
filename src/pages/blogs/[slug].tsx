@@ -7,9 +7,9 @@ import Image from "next/image";
 import { format } from "date-fns";
 import { Fragment } from "react/jsx-runtime";
 import Layout from "../../layout/layout";
-import { timeCalculate } from "../helpers/time-calculate";
+import { timeCalculate } from "../../helpers/time-calculate";
 import { useRouter } from "next/router";
-import Seo from "../seo/seo";
+import Seo from "../../seo/seo";
 
 interface GetDeaileProps {
     blogs: getBlogs[];

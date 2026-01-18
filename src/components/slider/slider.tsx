@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Fragment } from "react/jsx-runtime";
 import { SliderProps } from "./slider.props";
 import { useRouter } from "next/router";
-import { timeCalculate } from "../../pages/helpers/time-calculate";
+import { timeCalculate } from "../../helpers/time-calculate";
 import { format } from "date-fns";
 
 const Slider = ({ blogs, categories }: SliderProps) => {
