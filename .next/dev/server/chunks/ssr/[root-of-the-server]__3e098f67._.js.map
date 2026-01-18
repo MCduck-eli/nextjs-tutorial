@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/eldorabdukhalikov/Desktop/nextjs-tutorial/src/layout/layout.tsx"],"sourcesContent":["import { JSX } from \"react\";\nimport { LayoutProps } from \"./layout.props\";\n\nconst Layout = ({ children }: LayoutProps): JSX.Element => {\n    return <div></div>;\n};\n\nexport default Layout;\n"],"names":[],"mappings":";;;;;;AAGA,MAAM,SAAS,CAAC,EAAE,QAAQ,EAAe;IACrC,qBAAO,qKAAC;;;;;AACZ;uCAEe"}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///Users/eldorabdukhalikov/Desktop/nextjs-tutorial/src/pages/index.tsx"],"sourcesContent":["import { Button } from \"@mui/material\";\nimport Layout from \"../layout/layout\";\n\nconst IndexPage = () => {\n    return (\n        <Layout>\n            <Button>Click</Button>\n        </Layout>\n    );\n};\n\nexport default IndexPage;\n"],"names":[],"mappings":";;;;;AAAA;AACA;;;;AAEA,MAAM,YAAY;IACd,qBACI,qKAAC,6JAAM;kBACH,cAAA,qKAAC,qOAAM;sBAAC;;;;;;;;;;;AAGpB;uCAEe"}}]
+}

@@ -17,4 +17,7 @@ export interface getBlogs {
             url: string;
         };
     };
+    description: {
+        text: string;
+    };
 }

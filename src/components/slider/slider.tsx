@@ -1,11 +1,13 @@
 import { Avatar, Box, Button, Divider, Typography } from "@mui/material";
 import Image from "next/image";
-import { format } from "date-fns";
-import { navItems } from "../config/constants";
 import { Fragment } from "react/jsx-runtime";
 import { SliderProps } from "./slider.props";
+import { useRouter } from "next/router";
+import { timeCalculate } from "../../pages/helpers/time-calculate";
+import { format } from "date-fns";
 
 const Slider = ({ blogs, categories }: SliderProps) => {
+    const router = useRouter();
     return (
         <Box sx={{ width: { xs: "100%", md: "30%" } }}>
             <Box sx={{ position: "sticky", top: "100px" }}>
@@ -13,7 +15,7 @@ const Slider = ({ blogs, categories }: SliderProps) => {
                     sx={{
                         border: "1px solid #FFFDD0",
                         borderRadius: "8px",
-                        padding: "20px",
+                        padding: "15px",
                     }}
                 >
                     <Typography variant="h5">Slide</Typography>
@@ -21,22 +23,63 @@ const Slider = ({ blogs, categories }: SliderProps) => {
                         {blogs.map((item) => (
                             <Box
                                 key={item.id}
-                                sx={{ display: "flex", gap: 2, mt: "10px" }}
+                                sx={{
+                                    display: "flex",
+                                    gap: 2,
+                                    mt: "10px",
+                                }}
                             >
                                 <Image
                                     src={item.image.url}
                                     alt={item.title}
-                                    width={180}
-                                    height={110}
-                                    style={{ borderRadius: "10px" }}
+                                    width={190}
+                                    height={140}
+                                    style={{
+                                        borderRadius: "10px",
+                                        cursor: "pointer",
+                                    }}
+                                    onClick={() =>
+                                        router.push(`/blogs/${item.slug}`)
+                                    }
                                 />
                                 <Box>
                                     <Typography variant="body1">
                                         {item.title}
                                     </Typography>
-                                    <Typography>
-                                        date: {format(new Date(), "MM/dd/yyy")}
-                                    </Typography>
+
+                                    <Box
+                                        sx={{
+                                            display: "flex",
+                                            alignItems: "center",
+                                            gap: 1,
+                                            mt: "10px",
+                                        }}
+                                    >
+                                        <Avatar
+                                            src={item.author.avatar.url}
+                                            alt={item.title}
+                                        ></Avatar>
+                                        <Box>
+                                            <Typography>
+                                                {item.author.name}
+                                            </Typography>
+
+                                            <Typography
+                                                sx={{
+                                                    color: "rgba(255,255,255,0.9)",
+                                                }}
+                                            >
+                                                {format(
+                                                    new Date(item.createdAt),
+                                                    "MM/dd/yyyy",
+                                                )}{" "}
+                                                {timeCalculate(
+                                                    item.description.text,
+                                                )}
+                                                min read
+                                            </Typography>
+                                        </Box>
+                                    </Box>
                                 </Box>
                             </Box>
                         ))}
@@ -61,6 +104,9 @@ const Slider = ({ blogs, categories }: SliderProps) => {
                                         mt: "10px",
                                         textAlign: "start",
                                     }}
+                                    onClick={() =>
+                                        router.push(`/category/${nav.slug}`)
+                                    }
                                 >
                                     {nav.label}
                                 </Button>

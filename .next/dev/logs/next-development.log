@@ -1,0 +1,105 @@
+[00:00:00.529] Server  ERROR   (node:69434) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/eldorabdukhalikov/Desktop/nextjs-tutorial/next.config.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/eldorabdukhalikov/Desktop/nextjs-tutorial/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[00:00:01.110] Server  LOG     ✓ Ready in 881ms
+[00:01:20.080] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Styled(div)`. It was passed a child from Slider. See https://react.dev/link/warning-keys for more information.
+[00:01:20.106] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Styled(div)`. It was passed a child from Content. See https://react.dev/link/warning-keys for more information.
+[00:01:21.258] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `Styled(div)`.  It was passed a child from Slider.
+[00:01:21.258] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <Box minHeight="90vh">
+      <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} sx={{...}}>
+        <Insertion>
+        <div className="MuiBox-roo...">
+          <Hero>
+          <Box sx={{display:"flex", ...}} gap={2}>
+            <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} sx={{gap:2, ...}}>
+              <Insertion>
+              <div className="MuiBox-roo...">
+                <Slider>
+                <Content blogs={[...]}>
+                  <Box sx={{...}}>
+                    <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} sx={{...}}>
+                      <Insertion>
+                      <div className="MuiBox-roo...">
+                        <Box sx={{...}}>
+                          <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} sx={{...}}>
+                            <Insertion>
+                            <div className="MuiBox-roo...">
+                              <Box>
+                              <Typography>
+                              <Typography>
+                              <Box sx={{display:"flex", ...}}>
+                                <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} ...>
+                                  <Insertion>
+                                  <div
++                                   className="MuiBox-root css-4uta2e"
+-                                   className="MuiBox-root css-12s2sgo"
+                                  >
+                        <Box sx={{...}}>
+                          <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} sx={{...}}>
+                            <Insertion>
+                            <div className="MuiBox-roo...">
+                              <Box>
+                              <Typography>
+                              <Typography>
+                              <Box sx={{display:"flex", ...}}>
+                                <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} ...>
+                                  <Insertion>
+                                  <div
++                                   className="MuiBox-root css-4uta2e"
+-                                   className="MuiBox-root css-12s2sgo"
+                                  >
+                        <Box sx={{...}}>
+                          <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} sx={{...}}>
+                            <Insertion>
+                            <div className="MuiBox-roo...">
+                              <Box>
+                              <Typography>
+                              <Typography>
+                              <Box sx={{display:"flex", ...}}>
+                                <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} ...>
+                                  <Insertion>
+                                  <div
++                                   className="MuiBox-root css-4uta2e"
+-                                   className="MuiBox-root css-12s2sgo"
+                                  >
+                        <Box sx={{...}}>
+                          <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} sx={{...}}>
+                            <Insertion>
+                            <div className="MuiBox-roo...">
+                              <Box>
+                              <Typography>
+                              <Typography>
+                              <Box sx={{display:"flex", ...}}>
+                                <Styled(div) as="div" ref={null} className="MuiBox-root" theme={{...}} ...>
+                                  <Insertion>
+                                  <div
++                                   className="MuiBox-root css-4uta2e"
+-                                   className="MuiBox-root css-12s2sgo"
+                                  >
+
+[00:01:58.415] Server  ERROR   ❌ GraphQL xatosi: "Cannot read properties of undefined (reading 'url')"
+[00:01:58.415] Server  ERROR   ❌ GraphQL xatosi: "Cannot read properties of undefined (reading 'url')"
+[00:01:58.415] Server  ERROR   ❌ GraphQL xatosi: "Cannot read properties of undefined (reading 'url')"
+[00:01:58.424] Browser LOG     Refreshing page data due to server-side change
+[00:02:14.166] Server  LOG     ✓ Compiled in 18ms
+[00:02:14.252] Browser LOG     Refreshing page data due to server-side change

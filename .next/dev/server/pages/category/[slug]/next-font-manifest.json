@@ -1,0 +1,8 @@
+{
+  "pages": {
+    "/category/[slug]": []
+  },
+  "app": {},
+  "appUsingSizeAdjust": false,
+  "pagesUsingSizeAdjust": false
+}

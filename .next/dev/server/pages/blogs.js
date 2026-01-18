@@ -1,0 +1,11 @@
+var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/pages/blogs.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1fea831e._.js")
+R.c("server/chunks/ssr/8e694_next_f098e945._.js")
+R.c("server/chunks/ssr/8e694_@mui_material_esm_b74e9f9e._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__070d813b._.js")
+R.c("server/chunks/ssr/8e694_29a8bee0._.js")
+R.c("server/chunks/ssr/[externals]__e6a4d965._.js")
+R.c("server/chunks/ssr/8e694_98323b0c._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__4c168992._.js")
+R.m("[project]/Desktop/nextjs-tutorial/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/Desktop/nextjs-tutorial/src/pages/blogs/index.tsx [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/Desktop/nextjs-tutorial/node_modules/next/document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/Desktop/nextjs-tutorial/src/pages/_app.tsx [ssr] (ecmascript)\" } [ssr] (ecmascript)")
+module.exports=R.m("[project]/Desktop/nextjs-tutorial/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/Desktop/nextjs-tutorial/src/pages/blogs/index.tsx [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/Desktop/nextjs-tutorial/node_modules/next/document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/Desktop/nextjs-tutorial/src/pages/_app.tsx [ssr] (ecmascript)\" } [ssr] (ecmascript)").exports

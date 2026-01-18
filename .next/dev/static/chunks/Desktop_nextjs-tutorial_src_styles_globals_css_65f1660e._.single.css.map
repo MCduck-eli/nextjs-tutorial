@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Desktop/nextjs-tutorial/src/styles/globals.css"],"sourcesContent":["#nprogress .bar {\n    background: #0070f3;\n    height: 3px;\n    z-index: 9999;\n}\n\n#nprogress .peg {\n    box-shadow:\n        0 0 10px #0070f3,\n        0 0 5px #0070f3;\n}\n\n#nprogress .spinner {\n    display: block;\n    position: fixed;\n    top: 15px;\n    right: 15px;\n    z-index: 9999;\n}\n\n#nprogress .spinner-icon {\n    width: 18px;\n    height: 18px;\n    box-sizing: border-box;\n    border: solid 2px transparent;\n    border-top-color: #0070f3;\n    border-left-color: #0070f3;\n    border-radius: 50%;\n    animation: nprogress-spinner 400ms linear infinite;\n}\n\n@keyframes nprogress-spinner {\n    0% {\n        transform: rotate(0deg);\n    }\n    100% {\n        transform: rotate(360deg);\n    }\n}\n"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;AAMA;;;;;;;;AAQA;;;;;;;;;;AAWA"}}]
+}

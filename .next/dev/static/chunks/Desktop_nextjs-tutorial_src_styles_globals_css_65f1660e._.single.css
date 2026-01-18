@@ -1,0 +1,40 @@
+/* [project]/Desktop/nextjs-tutorial/src/styles/globals.css [client] (css) */
+#nprogress .bar {
+  z-index: 9999;
+  background: #0070f3;
+  height: 3px;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #0070f3, 0 0 5px #0070f3;
+}
+
+#nprogress .spinner {
+  z-index: 9999;
+  display: block;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+}
+
+#nprogress .spinner-icon {
+  box-sizing: border-box;
+  border: 2px solid #0000;
+  border-color: #0070f3 #0000 #0000 #0070f3;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  animation: .4s linear infinite nprogress-spinner;
+}
+
+@keyframes nprogress-spinner {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=Desktop_nextjs-tutorial_src_styles_globals_css_65f1660e._.single.css.map*/

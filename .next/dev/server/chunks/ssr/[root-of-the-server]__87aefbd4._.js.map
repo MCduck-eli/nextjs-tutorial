@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///Users/eldorabdukhalikov/Desktop/nextjs-tutorial/src/pages/_app.tsx"],"sourcesContent":["import Head from \"next/head\";\nimport \"../styles/globals.css\";\nimport type { AppProps } from \"next/app\";\nimport { ThemeProvider } from \"@mui/material/styles\";\n\nfunction MyApp({ Component, pageProps }: AppProps) {\n    <Head>\n        <meta name=\"viewport\" content=\"initial-scale=1, width=device-width\" />\n    </Head>;\n    <ThemeProvider theme={theme}></ThemeProvider>;\n    return <Component {...pageProps} />;\n}\n\nexport default MyApp;\n"],"names":[],"mappings":";;;;;AAAA;AAGA;;;;;AAEA,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAY;kBAC7C,qKAAC,iKAAI;kBACD,cAAA,qKAAC;YAAK,MAAK;YAAW,SAAQ;;;;;;;;;;;kBAElC,qKAAC,0PAAa;QAAC,OAAO;;;;;;IACtB,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACnC;uCAEe"}}]
+}

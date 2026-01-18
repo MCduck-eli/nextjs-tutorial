@@ -3,8 +3,11 @@ import { Box } from "@mui/system";
 import Image from "next/image";
 import { format } from "date-fns";
 import ContentProps from "./content.props";
+import { timeCalculate } from "../../pages/helpers/time-calculate";
+import { useRouter } from "next/router";
 
 const Content = ({ blogs }: ContentProps) => {
+    const router = useRouter();
     return (
         <Box sx={{ width: { xs: "100%", md: "70%" } }}>
             {blogs.map((item) => (
@@ -29,7 +32,8 @@ const Content = ({ blogs }: ContentProps) => {
                             src={item.image.url}
                             alt={item.title}
                             fill
-                            style={{ objectFit: "cover" }}
+                            style={{ objectFit: "cover", cursor: "pointer" }}
+                            onClick={() => router.push(`/blogs/${item.slug}`)}
                         />
                     </Box>
                     <Typography
@@ -61,7 +65,11 @@ const Content = ({ blogs }: ContentProps) => {
                         ></Avatar>
                         <Box>
                             <Typography>{item.author.name}</Typography>
-                            {format(new Date(item.createdAt), "MM/dd/yyyy")}
+                            {format(
+                                new Date(item.createdAt),
+                                "MM/dd/yyyy",
+                            )} • {timeCalculate(item.description.text)}
+                            min read
                         </Box>
                     </Box>
                 </Box>

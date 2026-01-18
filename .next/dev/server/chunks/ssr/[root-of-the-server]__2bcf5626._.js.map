@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/eldorabdukhalikov/Desktop/nextjs-tutorial/src/pages/about.tsx"],"sourcesContent":["import Head from \"next/head\";\n\nexport default function About() {\n    return (\n        <>\n            <Head>\n                <title>About | Page</title>\n            </Head>\n            <div>About</div>\n        </>\n    );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACpB,qBACI;;0BACI,qKAAC,iKAAI;0BACD,cAAA,qKAAC;8BAAM;;;;;;;;;;;0BAEX,qKAAC;0BAAI;;;;;;;;AAGjB"}}]
+}

@@ -10,24 +10,27 @@ export const getService = {
         const query = gql`
             query MyQuery {
                 blogs {
-                    author {
-                        avatar {
-                            url
-                        }
-                        slug
-                        name
-                    }
-                    excerpt
-                    createdAt
                     image {
                         url
                     }
                     slug
                     title
-                }
-                categories {
-                    label
-                    slug
+                    excerpt
+                    createdAt
+                    description {
+                        text
+                    }
+                    author {
+                        name
+                        avatar {
+                            url
+                        }
+                        slug
+                    }
+                    category {
+                        label
+                        slug
+                    }
                 }
             }
         `;
@@ -61,6 +64,134 @@ export const getService = {
             );
 
             return result.categories;
+        } catch (error: any) {
+            console.error("❌ GraphQL xatosi:", error.message);
+            return [];
+        }
+    },
+
+    async getSlideBlogs() {
+        const query = gql`
+            query GetSlideBlog {
+                blogs(last: 2) {
+                    image {
+                        url
+                    }
+                    slug
+                    title
+                    excerpt
+                    createdAt
+                    description {
+                        text
+                    }
+                    author {
+                        name
+                        avatar {
+                            url
+                        }
+                        slug
+                    }
+                    category {
+                        label
+                        slug
+                    }
+                }
+            }
+        `;
+
+        try {
+            const result = await request<{ blogs: getBlogs[] }>(
+                graphqlAPI,
+                query,
+            );
+
+            return result.blogs;
+        } catch (error: any) {
+            console.error("❌ GraphQL xatosi:", error.message);
+            return [];
+        }
+    },
+    async getDeaileSlug(slug: string) {
+        const query = gql`
+            query GetSlug($slug: String!) {
+                blogs(where: { slug: $slug }) {
+                    id
+                    image {
+                        url
+                    }
+                    slug
+                    title
+                    excerpt
+                    description {
+                        text
+                        html
+                    }
+                    author {
+                        name
+                        avatar {
+                            url
+                        }
+                    }
+                    createdAt
+                    category {
+                        label
+                        slug
+                    }
+                }
+            }
+        `;
+        try {
+            const result = await request<{ blogs: getBlogs[] }>(
+                graphqlAPI,
+                query,
+                { slug },
+            );
+
+            return result.blogs;
+        } catch (error: any) {
+            console.error("❌ GraphQL xatosi:", error.message);
+            return [];
+        }
+    },
+
+    async getCategoryDetaile(slug: string) {
+        const query = gql`
+            query GetSlug($slug: String!) {
+                blogs(where: { category: { slug: $slug } }) {
+                    image {
+                        url
+                    }
+                    slug
+                    title
+                    excerpt
+                    createdAt
+                    description {
+                        text
+                    }
+                    author {
+                        name
+                        avatar {
+                            url
+                        }
+                        slug
+                    }
+                    category {
+                        label
+                        slug
+                    }
+                }
+            }
+        `;
+        try {
+            const result = await request<{ blogs: getBlogs[] }>(
+                graphqlAPI,
+                query,
+                { slug },
+            );
+
+            console.log(result.blogs);
+
+            return result.blogs;
         } catch (error: any) {
             console.error("❌ GraphQL xatosi:", error.message);
             return [];

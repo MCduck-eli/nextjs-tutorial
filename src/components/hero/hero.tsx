@@ -1,8 +1,11 @@
-import { Box, Typography } from "@mui/material";
+import { Avatar, Box, Typography } from "@mui/material";
 import Image from "next/image";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import HeroProps from "./hero.props";
+import { format } from "date-fns";
+import { timeCalculate } from "../../pages/helpers/time-calculate";
+import { useRouter } from "next/router";
 
 const responsive = {
     superLargeDesktop: {
@@ -45,23 +48,51 @@ const Hero = ({ blogs }: HeroProps) => {
                             height: "70vh",
                         }}
                     >
-                        <Box>
+                        <Box
+                            sx={{
+                                position: "absolute",
+                                top: 0,
+                                left: 0,
+                                width: "100%",
+                                height: "100%",
+                                zIndex: 1,
+                            }}
+                        >
                             <Image
                                 src={item.image.url}
                                 alt={item.title}
                                 fill
-                                style={{ objectFit: "cover" }}
+                                style={{
+                                    objectFit: "cover",
+                                }}
                                 priority={index === 0}
                             />
                         </Box>
+
                         <Box
                             sx={{
                                 position: "absolute",
-                                bottom: 0,
+                                top: 0,
                                 left: 0,
-                                right: 0,
-                                background: "rgb(0, 0, 0, .4)",
-                                color: "white",
+                                width: "100%",
+                                height: "100%",
+                                background:
+                                    "linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,3) 100%)",
+                                zIndex: 2,
+                            }}
+                        />
+
+                        <Box
+                            sx={{
+                                position: "absolute",
+                                top: 0,
+                                left: 0,
+                                width: "100%",
+                                height: "100%",
+                                display: "flex",
+                                flexDirection: "column",
+                                justifyContent: "flex-end",
+                                zIndex: 3,
                             }}
                             padding={4}
                         >
@@ -69,6 +100,8 @@ const Hero = ({ blogs }: HeroProps) => {
                                 sx={{
                                     fontWeight: "bold",
                                     fontSize: { xs: "25px", md: "35px" },
+                                    color: "white",
+                                    textShadow: "2px 2px 4px rgba(0,0,0,0.5)",
                                 }}
                             >
                                 {item.title}
@@ -77,10 +110,52 @@ const Hero = ({ blogs }: HeroProps) => {
                                 sx={{
                                     mt: 1,
                                     fontSize: { xs: "15px", md: "22px" },
+                                    color: "white",
+                                    textShadow: "1px 1px 2px rgba(0,0,0,0.5)",
                                 }}
                             >
                                 {item.excerpt}
                             </Typography>
+
+                            <Box
+                                sx={{
+                                    display: "flex",
+                                    gap: 1,
+                                    mt: 2,
+                                    alignItems: "center",
+                                }}
+                            >
+                                <Avatar
+                                    src={item.author.avatar.url}
+                                    alt={item.author.name}
+                                    sx={{
+                                        mt: "5px",
+                                        border: "2px solid white",
+                                        width: 50,
+                                        height: 50,
+                                    }}
+                                />
+                                <Box>
+                                    <Typography
+                                        sx={{
+                                            color: "white",
+                                            fontWeight: "bold",
+                                        }}
+                                    >
+                                        {item.author.name}
+                                    </Typography>
+                                    <Typography
+                                        sx={{ color: "rgba(255,255,255,0.9)" }}
+                                    >
+                                        {format(
+                                            new Date(item.createdAt),
+                                            "MM/dd/yyyy",
+                                        )}{" "}
+                                        • {timeCalculate(item.description.text)}
+                                        min read
+                                    </Typography>
+                                </Box>
+                            </Box>
                         </Box>
                     </Box>
                 ))}
@@ -88,28 +163,5 @@ const Hero = ({ blogs }: HeroProps) => {
         </Box>
     );
 };
-
-const data = [
-    {
-        image: "https://media.graphassets.com/MxJZhmooRRuudoErkQ38",
-        title: "Technical SEO with Hygraph",
-        excerpt:
-            "Get started with your SEO implementation when using a Headless CMS",
-        author: {
-            name: "John Smith",
-            image: "https://media.graphassets.com/DkfNqQNGRz2F4UFntKQx",
-        },
-    },
-    {
-        image: "https://media.graphassets.com/bh3K2NNtTHCN260Xfq9h",
-        title: "Union Types and Sortable Relations with Hygraph",
-        excerpt:
-            "Learn more about Polymorphic Relations and Sortable Relations with Hygraph",
-        author: {
-            name: "Samar Badriddinov",
-            image: "https://media.graphassets.com/DkfNqQNGRz2F4UFntKQx",
-        },
-    },
-];
 
 export default Hero;

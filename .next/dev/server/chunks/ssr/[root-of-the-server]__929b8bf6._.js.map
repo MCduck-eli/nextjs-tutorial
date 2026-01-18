@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/eldorabdukhalikov/Desktop/nextjs-tutorial/src/pages/category/%5Bslug%5D.tsx"],"sourcesContent":["const categoryDetailPage = () => {\n    return <div>categoryDetailPage</div>;\n};\n\nexport default categoryDetailPage;\n"],"names":[],"mappings":";;;;;;AAAA,MAAM,qBAAqB;IACvB,qBAAO,qKAAC;kBAAI;;;;;;AAChB;uCAEe"}}]
+}

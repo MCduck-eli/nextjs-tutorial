@@ -17,6 +17,8 @@ import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import { navItems } from "../config/constants";
 import AppleIcon from "@mui/icons-material/Apple";
+import { useRouter } from "next/router";
+import Link from "next/link";
 
 interface Props {
     window?: () => Window;
@@ -30,6 +32,7 @@ const Navbar = (props: Props) => {
     const handleDrawerToggle = () => {
         setMobileOpen((prevState) => !prevState);
     };
+    const router = useRouter();
 
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
@@ -41,7 +44,10 @@ const Navbar = (props: Props) => {
                 {navItems.map((item) => (
                     <ListItem key={item.route} disablePadding>
                         <ListItemButton sx={{ textAlign: "center" }}>
-                            <ListItemText primary={item.label} />
+                            <ListItemText
+                                onClick={() => router.push(item.route)}
+                                primary={item.label}
+                            />
                         </ListItemButton>
                     </ListItem>
                 ))}
@@ -74,16 +80,40 @@ const Navbar = (props: Props) => {
                             display: { xs: "none", sm: "block" },
                         }}
                     >
-                        <div style={{ display: "flex", gap: "2px" }}>
+                        <Link
+                            style={{
+                                display: "flex",
+                                gap: "2px",
+                                cursor: "pointer",
+                                textDecoration: "none",
+                            }}
+                            href={"/"}
+                        >
                             <AppleIcon
-                                sx={{ alignItems: "center", height: "25px" }}
+                                sx={{
+                                    alignItems: "center",
+                                    height: "25px",
+                                    color: "white",
+                                }}
                             />
-                            EliNarutto
-                        </div>
+                            <Typography
+                                sx={{
+                                    fontSize: "22px",
+                                    fontWeight: "bold",
+                                    color: "white",
+                                }}
+                            >
+                                EliNarutto
+                            </Typography>
+                        </Link>
                     </Typography>
                     <Box sx={{ display: { xs: "none", sm: "block" } }}>
                         {navItems.map((item) => (
-                            <Button key={item.route} sx={{ color: "#fff" }}>
+                            <Button
+                                key={item.route}
+                                onClick={() => router.push(item.route)}
+                                sx={{ color: "#fff" }}
+                            >
                                 {item.label}
                             </Button>
                         ))}
