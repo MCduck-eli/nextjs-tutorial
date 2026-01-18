@@ -5,7 +5,10 @@
     "/": [],
     "/_app": [
       "static/media/ce62453a442c7f35-s.p.a9507876.woff2"
-    ]
+    ],
+    "/blogs": [],
+    "/blogs/[slug]": [],
+    "/category": []
   },
   "pagesUsingSizeAdjust": true
 }

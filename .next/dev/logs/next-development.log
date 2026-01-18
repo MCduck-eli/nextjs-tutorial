@@ -1,454 +1,117 @@
-[00:00:00.513] Server  ERROR   (node:72648) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/eldorabdukhalikov/Desktop/nextjs-tutorial/next.config.js is not specified and it doesn't parse as CommonJS.
+[00:00:00.557] Server  ERROR   (node:75200) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/eldorabdukhalikov/Desktop/nextjs-tutorial/next.config.js is not specified and it doesn't parse as CommonJS.
 Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 To eliminate this warning, add "type": "module" to /Users/eldorabdukhalikov/Desktop/nextjs-tutorial/package.json.
 (Use `node --trace-warnings ...` to show where the warning was created)
-[00:00:01.037] Server  LOG     ✓ Ready in 812ms
-[00:00:03.196] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
-Module not found: Can't resolve './seo/seo'
-   6 | import { getService } from "../services/get-service";
-   7 | import CategoriesInterface from "../interfaces/categories-interface";
->  8 | import Seo from "./seo/seo";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | interface HomePageProps {
-  11 |     blogs: getBlogs[];
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:03.198] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
-Module not found: Can't resolve './seo/seo'
-   6 | import { getService } from "../services/get-service";
-   7 | import CategoriesInterface from "../interfaces/categories-interface";
->  8 | import Seo from "./seo/seo";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | interface HomePageProps {
-  11 |     blogs: getBlogs[];
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:03.202] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
-Module not found: Can't resolve './seo/seo'
-   6 | import { getService } from "../services/get-service";
-   7 | import CategoriesInterface from "../interfaces/categories-interface";
->  8 | import Seo from "./seo/seo";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | interface HomePageProps {
-  11 |     blogs: getBlogs[];
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:03.204] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
-Module not found: Can't resolve './seo/seo'
-   6 | import { getService } from "../services/get-service";
-   7 | import CategoriesInterface from "../interfaces/categories-interface";
->  8 | import Seo from "./seo/seo";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | interface HomePageProps {
-  11 |     blogs: getBlogs[];
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:03.215] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
-Module not found: Can't resolve './seo/seo'
-   6 | import { getService } from "../services/get-service";
-   7 | import CategoriesInterface from "../interfaces/categories-interface";
->  8 | import Seo from "./seo/seo";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | interface HomePageProps {
-  11 |     blogs: getBlogs[];
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:04.206] Browser ERROR   uncaughtError: Error: ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
-Module not found: Can't resolve './seo/seo'
-   6 | import { getService } from "../services/get-service";
-   7 | import CategoriesInterface from "../interfaces/categories-interface";
->  8 | import Seo from "./seo/seo";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | interface HomePageProps {
-  11 |     blogs: getBlogs[];
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:04.515] Browser ERROR   ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
-Module not found: Can't resolve './seo/seo'
-   6 | import { getService } from "../services/get-service";
-   7 | import CategoriesInterface from "../interfaces/categories-interface";
->  8 | import Seo from "./seo/seo";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | interface HomePageProps {
-  11 |     blogs: getBlogs[];
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:04.626] Browser ERROR   ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
-Module not found: Can't resolve './seo/seo'
-   6 | import { getService } from "../services/get-service";
-   7 | import CategoriesInterface from "../interfaces/categories-interface";
->  8 | import Seo from "./seo/seo";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | interface HomePageProps {
-  11 |     blogs: getBlogs[];
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:04.868] Browser ERROR   ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
-Module not found: Can't resolve './seo/seo'
-   6 | import { getService } from "../services/get-service";
-   7 | import CategoriesInterface from "../interfaces/categories-interface";
->  8 | import Seo from "./seo/seo";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | interface HomePageProps {
-  11 |     blogs: getBlogs[];
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:30.527] Server  LOG     ✓ Compiled in 112ms
-[00:00:30.632] Browser ERROR   ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
-Module not found: Can't resolve './seo/seo'
-   6 | import { getService } from "../services/get-service";
-   7 | import CategoriesInterface from "../interfaces/categories-interface";
->  8 | import Seo from "./seo/seo";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | interface HomePageProps {
-  11 |     blogs: getBlogs[];
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:36.087] Server  LOG     ✓ Compiled in 75ms
-[00:00:36.191] Browser ERROR   ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
-Module not found: Can't resolve './seo/seo'
-   6 | import { getService } from "../services/get-service";
-   7 | import CategoriesInterface from "../interfaces/categories-interface";
->  8 | import Seo from "./seo/seo";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | interface HomePageProps {
-  11 |     blogs: getBlogs[];
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:39.403] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
-Module not found: Can't resolve '../../components/config/site'
-  1 | import Head from "next/head";
-  2 | import { SeoProps } from "./seo.props";
-> 3 | import { siteConfig } from "../../components/config/site";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Seo = ({
-  6 |     children,
-
-
-
-Import traces:
-  Browser:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-  SSR:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:39.404] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
-Module not found: Can't resolve '../../components/config/site'
-  1 | import Head from "next/head";
-  2 | import { SeoProps } from "./seo.props";
-> 3 | import { siteConfig } from "../../components/config/site";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Seo = ({
-  6 |     children,
-
-
-
-Import traces:
-  Browser:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-  SSR:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:39.405] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
-Module not found: Can't resolve '../../components/config/site'
-  1 | import Head from "next/head";
-  2 | import { SeoProps } from "./seo.props";
-> 3 | import { siteConfig } from "../../components/config/site";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Seo = ({
-  6 |     children,
-
-
-
-Import traces:
-  Browser:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-  SSR:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:39.407] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
-Module not found: Can't resolve '../../components/config/site'
-  1 | import Head from "next/head";
-  2 | import { SeoProps } from "./seo.props";
-> 3 | import { siteConfig } from "../../components/config/site";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Seo = ({
-  6 |     children,
-
-
-
-Import traces:
-  Browser:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-  SSR:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:39.414] Server  ERROR   ⨯ ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
-Module not found: Can't resolve '../../components/config/site'
-  1 | import Head from "next/head";
-  2 | import { SeoProps } from "./seo.props";
-> 3 | import { siteConfig } from "../../components/config/site";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Seo = ({
-  6 |     children,
-
-
-
-Import traces:
-  Browser:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-  SSR:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:39.508] Browser ERROR   ./Desktop/nextjs-tutorial/src/pages/index.tsx:8:1
-Module not found: Can't resolve './seo/seo'
-   6 | import { getService } from "../services/get-service";
-   7 | import CategoriesInterface from "../interfaces/categories-interface";
->  8 | import Seo from "./seo/seo";
-     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   9 |
-  10 | interface HomePageProps {
-  11 |     blogs: getBlogs[];
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:39.710] Browser ERROR   uncaughtError: Error: ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
-Module not found: Can't resolve '../../components/config/site'
-  1 | import Head from "next/head";
-  2 | import { SeoProps } from "./seo.props";
-> 3 | import { siteConfig } from "../../components/config/site";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Seo = ({
-  6 |     children,
-
-
-
-Import traces:
-  Browser:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-  SSR:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:00:39.882] Browser ERROR   ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
-Module not found: Can't resolve '../../components/config/site'
-  1 | import Head from "next/head";
-  2 | import { SeoProps } from "./seo.props";
-> 3 | import { siteConfig } from "../../components/config/site";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Seo = ({
-  6 |     children,
-
-Import traces:
-  Browser:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-  SSR:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:00:39.883] Browser ERROR   ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
-Module not found: Can't resolve '../../components/config/site'
-  1 | import Head from "next/head";
-  2 | import { SeoProps } from "./seo.props";
-> 3 | import { siteConfig } from "../../components/config/site";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Seo = ({
-  6 |     children,
-
-Import traces:
-  Browser:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-  SSR:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:01:04.628] Server  LOG     ✓ Compiled in 23ms
-[00:01:04.731] Browser ERROR   ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
-Module not found: Can't resolve '../../components/config/site'
-  1 | import Head from "next/head";
-  2 | import { SeoProps } from "./seo.props";
-> 3 | import { siteConfig } from "../../components/config/site";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Seo = ({
-  6 |     children,
-
-Import traces:
-  Browser:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-  SSR:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:01:08.291] Server  LOG     ✓ Compiled in 85ms
-[00:01:08.394] Browser ERROR   ./Desktop/nextjs-tutorial/src/seo/seo.tsx:3:1
-Module not found: Can't resolve '../../components/config/site'
-  1 | import Head from "next/head";
-  2 | import { SeoProps } from "./seo.props";
-> 3 | import { siteConfig } from "../../components/config/site";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 |
-  5 | const Seo = ({
-  6 |     children,
-
-Import traces:
-  Browser:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-  SSR:
-    ./Desktop/nextjs-tutorial/src/seo/seo.tsx
-    ./Desktop/nextjs-tutorial/src/pages/index.tsx
-
-https://nextjs.org/docs/messages/module-not-found
-[00:01:10.395] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:01:11.507] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:01:11.518] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:01:11.523] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:01:11.538] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:01:11.540] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:01:11.543] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:01:11.718] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:04:47.947] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:04:47.954] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:04:47.984] Server  LOG     ✓ Compiled in 202ms
-[00:04:48.858] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:04:48.910] Server  LOG     ✓ Compiled in 36ms
-[00:04:48.923] Server  ERROR   ReferenceError: theme is not defined
-[00:04:48.925] Server  ERROR   ⨯ ReferenceError: theme is not defined
-[00:04:48.926] Server  ERROR   ⨯ ReferenceError: theme is not defined
-[00:04:49.452] Server  ERROR   ReferenceError: theme is not defined
-[00:04:49.453] Server  ERROR   ⨯ ReferenceError: theme is not defined
-[00:04:49.453] Server  ERROR   ⨯ ReferenceError: theme is not defined
-[00:04:50.176] Browser ERROR   uncaughtError: ReferenceError: theme is not defined
-[00:05:02.364] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:05:02.391] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:05:02.416] Server  LOG     ✓ Compiled in 108ms
-[00:05:03.239] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:05:03.243] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:05:03.247] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:05:03.267] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:05:03.269] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:05:03.271] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:05:03.474] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:05:30.207] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:05:30.212] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:05:30.243] Server  LOG     ✓ Compiled in 17ms
-[00:05:31.077] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:05:31.080] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:05:31.085] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:05:31.273] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:07:22.336] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:07:22.350] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:07:22.375] Server  LOG     ✓ Compiled in 22ms
-[00:07:23.194] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:07:23.199] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:07:23.205] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:07:23.420] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:07:27.842] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:07:27.849] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:07:27.852] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:07:28.002] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:08:19.211] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:08:19.218] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:08:19.224] Server  ERROR   ⨯ TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:08:19.381] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'fontWeightBold')
-[00:08:31.233] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:08:31.242] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:08:31.380] Server  LOG     ✓ Compiled in 21ms
-[00:08:32.026] Server  ERROR   Each child in a list should have a unique "key" prop.
+[00:00:01.070] Server  LOG     ✓ Ready in 843ms
+[00:00:08.461] Server  ERROR   Each child in a list should have a unique "key" prop.
 
 Check the render method of `Styled(div)`. It was passed a child from Slider. See https://react.dev/link/warning-keys for more information.
-[00:08:32.048] Server  ERROR   Each child in a list should have a unique "key" prop.
+[00:00:08.485] Server  ERROR   Each child in a list should have a unique "key" prop.
 
 Check the render method of `Styled(div)`. It was passed a child from Content. See https://react.dev/link/warning-keys for more information.
-[00:08:33.305] Server  LOG     ✓ Compiled in 4ms
-[00:08:35.558] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+[00:00:09.500] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
 
 Check the render method of `Styled(div)`.  It was passed a child from Slider.
+[00:01:27.639] Server  LOG     ✓ Compiled in 286ms
+[00:01:49.401] Server  LOG     ✓ Compiled in 22ms
+[00:02:31.604] Server  LOG     ✓ Compiled in 24ms
+[00:03:00.247] Server  LOG     ✓ Compiled in 26ms
+[00:03:03.170] Server  LOG     ✓ Compiled in 5ms
+[00:03:41.203] Server  LOG     ✓ Compiled in 14ms
+[00:03:46.131] Server  LOG     ✓ Compiled in 3ms
+[00:03:54.696] Server  LOG     ✓ Compiled in 7ms
+[00:04:24.942] Server  LOG     ✓ Compiled in 11ms
+[00:05:23.205] Server  LOG     ✓ Compiled in 310ms
+[00:05:42.692] Server  LOG     ✓ Compiled in 15ms
+[00:06:24.354] Server  LOG     ✓ Compiled in 52ms
+[00:06:24.447] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <ForwardRef(LinkComponent)> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[00:06:32.664] Server  LOG     ✓ Compiled in 8ms
+[00:06:52.207] Server  LOG     ✓ Compiled in 109ms
+[00:07:08.474] Server  LOG     ✓ Compiled in 4ms
+[00:07:38.338] Server  LOG     ✓ Compiled in 106ms
+[00:07:41.879] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Styled(div)`. It was passed a child from Slider. See https://react.dev/link/warning-keys for more information.
+[00:07:41.900] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Styled(div)`. It was passed a child from Content. See https://react.dev/link/warning-keys for more information.
+[00:07:42.894] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `Styled(div)`.  It was passed a child from Slider.
+[00:07:45.472] Server  ERROR   PageNotFoundError: Cannot find module for page: /e_halikov
+[00:07:49.203] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Styled(div)`. It was passed a child from Slider. See https://react.dev/link/warning-keys for more information.
+[00:07:49.224] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Styled(div)`. It was passed a child from Content. See https://react.dev/link/warning-keys for more information.
+[00:07:49.534] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `Styled(div)`.  It was passed a child from Slider.
+[00:10:29.386] Server  LOG     ✓ Compiled in 71ms
+[00:10:34.374] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Styled(div)`. It was passed a child from Slider. See https://react.dev/link/warning-keys for more information.
+[00:10:34.399] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Styled(div)`. It was passed a child from Content. See https://react.dev/link/warning-keys for more information.
+[00:10:34.770] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `Styled(div)`.  It was passed a child from Slider.
+[00:10:49.095] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Styled(div)`. It was passed a child from Slider. See https://react.dev/link/warning-keys for more information.
+[00:10:49.116] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Styled(div)`. It was passed a child from Content. See https://react.dev/link/warning-keys for more information.
+[00:10:50.088] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `Styled(div)`.  It was passed a child from Slider.
+[00:12:12.232] Server  LOG     ✓ Compiled in 95ms
+[00:12:16.297] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Styled(div)`. It was passed a child from Slider. See https://react.dev/link/warning-keys for more information.
+[00:12:16.320] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Styled(div)`. It was passed a child from Content. See https://react.dev/link/warning-keys for more information.
+[00:12:16.737] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `Styled(div)`.  It was passed a child from Slider.
+[00:12:46.418] Server  LOG     ✓ Compiled in 101ms
+[00:14:08.089] Server  LOG     ✓ Compiled in 100ms
+[00:14:50.082] Server  LOG     ✓ Compiled in 74ms
+[00:14:50.690] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <ForwardRef(LinkComponent)> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[00:14:50.690] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <ForwardRef(LinkComponent)> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[00:14:55.251] Server  LOG     ✓ Compiled in 17ms
+[00:15:10.105] Server  LOG     ✓ Compiled in 24ms
+[00:17:35.091] Server  LOG     ✓ Compiled in 159ms
+[00:17:49.930] Server  LOG     ✓ Compiled in 14ms
+[00:19:02.120] Server  LOG     ✓ Compiled in 43ms
+[00:19:35.397] Server  LOG     ✓ Compiled in 10ms
+[00:19:39.029] Server  LOG     ✓ Compiled in 16ms
+[00:19:41.367] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Styled(div)`. It was passed a child from Slider. See https://react.dev/link/warning-keys for more information.
+[00:19:41.389] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Styled(div)`. It was passed a child from Content. See https://react.dev/link/warning-keys for more information.
+[00:19:42.327] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `Styled(div)`.  It was passed a child from Slider.
+[00:19:47.484] Server  LOG     ✓ Compiled in 12ms
+[00:19:48.457] Server  LOG     ✓ Compiled in 7ms

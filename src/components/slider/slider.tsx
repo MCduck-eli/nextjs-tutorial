@@ -43,7 +43,14 @@ const Slider = ({ blogs, categories }: SliderProps) => {
                                     }
                                 />
                                 <Box>
-                                    <Typography variant="body1">
+                                    <Typography
+                                        sx={{
+                                            fontSize: {
+                                                xs: "14px",
+                                                md: "20px",
+                                            },
+                                        }}
+                                    >
                                         {item.title}
                                     </Typography>
 
@@ -60,13 +67,24 @@ const Slider = ({ blogs, categories }: SliderProps) => {
                                             alt={item.title}
                                         ></Avatar>
                                         <Box>
-                                            <Typography>
+                                            <Typography
+                                                sx={{
+                                                    fontSize: {
+                                                        xs: "12px",
+                                                        md: "18px",
+                                                    },
+                                                }}
+                                            >
                                                 {item.author.name}
                                             </Typography>
 
                                             <Typography
                                                 sx={{
                                                     color: "rgba(255,255,255,0.9)",
+                                                    fontSize: {
+                                                        xs: "12px",
+                                                        md: "18px",
+                                                    },
                                                 }}
                                             >
                                                 {format(

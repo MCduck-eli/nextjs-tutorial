@@ -71,20 +71,48 @@ const Navbar = (props)=>{
             textAlign: "center"
         },
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                variant: "h6",
-                sx: {
-                    my: 2
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                style: {
+                    display: "flex",
+                    gap: "2px",
+                    cursor: "pointer",
+                    textDecoration: "none",
+                    justifyContent: "center"
                 },
-                children: "MUI"
-            }, void 0, false, {
+                href: "/",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Apple$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        sx: {
+                            alignItems: "center",
+                            height: "25px",
+                            color: "white"
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
+                        lineNumber: 49,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                        sx: {
+                            fontSize: "22px",
+                            fontWeight: "bold",
+                            color: "white"
+                        },
+                        children: "EliNarutto"
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
+                        lineNumber: 56,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
                 fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
                 lineNumber: 39,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Divider$2f$Divider$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__["Divider"], {}, void 0, false, {
                 fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                lineNumber: 42,
+                lineNumber: 66,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$List$2f$List$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__List$3e$__["List"], {
@@ -99,22 +127,22 @@ const Navbar = (props)=>{
                                 primary: item.label
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                                lineNumber: 47,
+                                lineNumber: 71,
                                 columnNumber: 29
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                            lineNumber: 46,
+                            lineNumber: 70,
                             columnNumber: 25
                         }, ("TURBOPACK compile-time value", void 0))
                     }, item.route, false, {
                         fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                        lineNumber: 45,
+                        lineNumber: 69,
                         columnNumber: 21
                     }, ("TURBOPACK compile-time value", void 0)))
             }, void 0, false, {
                 fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                lineNumber: 43,
+                lineNumber: 67,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -131,7 +159,7 @@ const Navbar = (props)=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CssBaseline$2f$CssBaseline$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                lineNumber: 63,
+                lineNumber: 87,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$AppBar$2f$AppBar$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__AppBar$3e$__["AppBar"], {
@@ -154,12 +182,12 @@ const Navbar = (props)=>{
                             },
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Menu$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                                lineNumber: 73,
+                                lineNumber: 97,
                                 columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                            lineNumber: 66,
+                            lineNumber: 90,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -189,7 +217,7 @@ const Navbar = (props)=>{
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 116,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -201,18 +229,18 @@ const Navbar = (props)=>{
                                         children: "EliNarutto"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                                        lineNumber: 99,
+                                        lineNumber: 123,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                                lineNumber: 83,
+                                lineNumber: 107,
                                 columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                            lineNumber: 75,
+                            lineNumber: 99,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -230,23 +258,23 @@ const Navbar = (props)=>{
                                     children: item.label
                                 }, item.route, false, {
                                     fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                                    lineNumber: 112,
+                                    lineNumber: 136,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0)))
                         }, void 0, false, {
                             fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                            lineNumber: 110,
+                            lineNumber: 134,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                    lineNumber: 65,
+                    lineNumber: 89,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                lineNumber: 64,
+                lineNumber: 88,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("nav", {
@@ -271,12 +299,12 @@ const Navbar = (props)=>{
                     children: drawer
                 }, void 0, false, {
                     fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                    lineNumber: 124,
+                    lineNumber: 148,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                lineNumber: 123,
+                lineNumber: 147,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -286,18 +314,18 @@ const Navbar = (props)=>{
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Toolbar$2f$Toolbar$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Toolbar$3e$__["Toolbar"], {}, void 0, false, {
                     fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                    lineNumber: 144,
+                    lineNumber: 168,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-                lineNumber: 143,
+                lineNumber: 167,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/nextjs-tutorial/src/components/navbar/navbar.tsx",
-        lineNumber: 62,
+        lineNumber: 86,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -317,6 +345,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutoria
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Telegram$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/nextjs-tutorial/node_modules/@mui/icons-material/esm/Telegram.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Instagram$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/nextjs-tutorial/node_modules/@mui/icons-material/esm/Instagram.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$GitHub$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/nextjs-tutorial/node_modules/@mui/icons-material/esm/GitHub.js [ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/nextjs-tutorial/node_modules/next/link.js [ssr] (ecmascript)");
+;
 ;
 ;
 ;
@@ -342,7 +372,7 @@ const Footer = ()=>{
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/nextjs-tutorial/src/components/footer/footer.tsx",
-                lineNumber: 19,
+                lineNumber: 20,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -351,43 +381,76 @@ const Footer = ()=>{
                     gap: "15px"
                 },
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Telegram$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        sx: {
-                            cursor: "pointer"
-                        }
-                    }, void 0, false, {
-                        fileName: "[project]/Desktop/nextjs-tutorial/src/components/footer/footer.tsx",
-                        lineNumber: 23,
-                        columnNumber: 17
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Instagram$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        sx: {
-                            cursor: "pointer"
-                        }
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        href: "https://t.me/e_halikov",
+                        style: {
+                            color: "white"
+                        },
+                        target: "_blank",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Telegram$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                            sx: {
+                                cursor: "pointer"
+                            }
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/nextjs-tutorial/src/components/footer/footer.tsx",
+                            lineNumber: 29,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Desktop/nextjs-tutorial/src/components/footer/footer.tsx",
                         lineNumber: 24,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$GitHub$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        sx: {
-                            cursor: "pointer"
-                        }
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        href: "https://www.instagram.com/eldor.halikov/?next=%2F",
+                        style: {
+                            color: "white"
+                        },
+                        target: "_blank",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Instagram$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                            sx: {
+                                cursor: "pointer"
+                            }
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/nextjs-tutorial/src/components/footer/footer.tsx",
+                            lineNumber: 36,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Desktop/nextjs-tutorial/src/components/footer/footer.tsx",
-                        lineNumber: 25,
+                        lineNumber: 31,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        href: "https://github.com/MCduck-eli",
+                        style: {
+                            color: "white"
+                        },
+                        target: "_blank",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$GitHub$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                            sx: {
+                                cursor: "pointer"
+                            }
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/nextjs-tutorial/src/components/footer/footer.tsx",
+                            lineNumber: 43,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/nextjs-tutorial/src/components/footer/footer.tsx",
+                        lineNumber: 38,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/nextjs-tutorial/src/components/footer/footer.tsx",
-                lineNumber: 22,
+                lineNumber: 23,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/nextjs-tutorial/src/components/footer/footer.tsx",
-        lineNumber: 9,
+        lineNumber: 10,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -739,7 +802,12 @@ const Slider = ({ blogs, categories })=>{
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                    variant: "body1",
+                                                    sx: {
+                                                        fontSize: {
+                                                            xs: "14px",
+                                                            md: "20px"
+                                                        }
+                                                    },
                                                     children: item.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/nextjs-tutorial/src/components/slider/slider.tsx",
@@ -759,21 +827,31 @@ const Slider = ({ blogs, categories })=>{
                                                             alt: item.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/nextjs-tutorial/src/components/slider/slider.tsx",
-                                                            lineNumber: 58,
+                                                            lineNumber: 65,
                                                             columnNumber: 41
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                    sx: {
+                                                                        fontSize: {
+                                                                            xs: "12px",
+                                                                            md: "18px"
+                                                                        }
+                                                                    },
                                                                     children: item.author.name
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Desktop/nextjs-tutorial/src/components/slider/slider.tsx",
-                                                                    lineNumber: 63,
+                                                                    lineNumber: 70,
                                                                     columnNumber: 45
                                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                                                                     sx: {
-                                                                        color: "rgba(255,255,255,0.9)"
+                                                                        color: "rgba(255,255,255,0.9)",
+                                                                        fontSize: {
+                                                                            xs: "12px",
+                                                                            md: "18px"
+                                                                        }
                                                                     },
                                                                     children: [
                                                                         (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f$date$2d$fns$2f$format$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["format"])(new Date(item.createdAt), "MM/dd/yyyy"),
@@ -783,19 +861,19 @@ const Slider = ({ blogs, categories })=>{
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/Desktop/nextjs-tutorial/src/components/slider/slider.tsx",
-                                                                    lineNumber: 67,
+                                                                    lineNumber: 81,
                                                                     columnNumber: 45
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Desktop/nextjs-tutorial/src/components/slider/slider.tsx",
-                                                            lineNumber: 62,
+                                                            lineNumber: 69,
                                                             columnNumber: 41
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/nextjs-tutorial/src/components/slider/slider.tsx",
-                                                    lineNumber: 50,
+                                                    lineNumber: 57,
                                                     columnNumber: 37
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
@@ -834,7 +912,7 @@ const Slider = ({ blogs, categories })=>{
                             children: "Category"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/nextjs-tutorial/src/components/slider/slider.tsx",
-                            lineNumber: 96,
+                            lineNumber: 114,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -851,29 +929,29 @@ const Slider = ({ blogs, categories })=>{
                                             children: nav.label
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/nextjs-tutorial/src/components/slider/slider.tsx",
-                                            lineNumber: 100,
+                                            lineNumber: 118,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$nextjs$2d$tutorial$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Divider$2f$Divider$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__["Divider"], {}, void 0, false, {
                                             fileName: "[project]/Desktop/nextjs-tutorial/src/components/slider/slider.tsx",
-                                            lineNumber: 113,
+                                            lineNumber: 131,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, nav.slug, true, {
                                     fileName: "[project]/Desktop/nextjs-tutorial/src/components/slider/slider.tsx",
-                                    lineNumber: 99,
+                                    lineNumber: 117,
                                     columnNumber: 29
                                 }, ("TURBOPACK compile-time value", void 0)))
                         }, void 0, false, {
                             fileName: "[project]/Desktop/nextjs-tutorial/src/components/slider/slider.tsx",
-                            lineNumber: 97,
+                            lineNumber: 115,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/nextjs-tutorial/src/components/slider/slider.tsx",
-                    lineNumber: 88,
+                    lineNumber: 106,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0))
             ]

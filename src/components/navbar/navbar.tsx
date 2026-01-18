@@ -36,9 +36,33 @@ const Navbar = (props: Props) => {
 
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-            <Typography variant="h6" sx={{ my: 2 }}>
-                MUI
-            </Typography>
+            <Link
+                style={{
+                    display: "flex",
+                    gap: "2px",
+                    cursor: "pointer",
+                    textDecoration: "none",
+                    justifyContent: "center",
+                }}
+                href={"/"}
+            >
+                <AppleIcon
+                    sx={{
+                        alignItems: "center",
+                        height: "25px",
+                        color: "white",
+                    }}
+                />
+                <Typography
+                    sx={{
+                        fontSize: "22px",
+                        fontWeight: "bold",
+                        color: "white",
+                    }}
+                >
+                    EliNarutto
+                </Typography>
+            </Link>
             <Divider />
             <List>
                 {navItems.map((item) => (

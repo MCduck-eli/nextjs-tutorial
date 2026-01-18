@@ -1,5 +1,5 @@
 __turbopack_load_page_chunks__("/blogs/[slug]", [
-  "static/chunks/[root-of-the-server]__6f6ba5e1._.js",
+  "static/chunks/[root-of-the-server]__88f377a7._.js",
   "static/chunks/8e694_next_dist_compiled_dd0a295e._.js",
   "static/chunks/8e694_next_dist_shared_lib_b5668d24._.js",
   "static/chunks/8e694_next_dist_client_229d54ed._.js",
@@ -11,5 +11,5 @@ __turbopack_load_page_chunks__("/blogs/[slug]", [
   "static/chunks/8e694_4b43a16a._.js",
   "static/chunks/8e694_react-multi-carousel_lib_styles_c76daa6e.css",
   "static/chunks/Desktop_nextjs-tutorial_src_pages_blogs_[slug]_tsx_2da965e7._.js",
-  "static/chunks/turbopack-Desktop_nextjs-tutorial_src_pages_blogs_[slug]_tsx_bdd0e9f5._.js"
+  "static/chunks/turbopack-Desktop_nextjs-tutorial_src_pages_blogs_[slug]_tsx_57b5dc2c._.js"
 ])
